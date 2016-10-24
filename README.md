@@ -1,2 +1,2 @@
 # michael-bateman.github.io
-So I just wanted to make a website so I decided to make a simple one.  Feel free to fork anything and work on it if it's of intrest to you, even though it probably isn't.  Have fun!
+I just wanted to make a website so I decided to make a simple one.  The link is michael-bateman.github.io so please do visit!  If you visit you could win a chocolate bar. Jks
