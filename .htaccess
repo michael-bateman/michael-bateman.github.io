@@ -1,1 +1,11 @@
 ErrorDocument 404 /404.html
+
+SetEnvIf Host staging.domain.com passreq
+AuthType Basic
+AuthName "Password Required"
+AuthUserFile /docs/passwords/.htpasswd
+Require valid-user
+Order allow,deny
+Allow from all
+Deny from env=passreq
+Satisfy any
