@@ -1,6 +1,6 @@
 ErrorDocument 404 /404.html
 
-SetEnvIf Host staging.domain.com passreq
+SetEnvIf Host michael-bateman.github.io passreq
 AuthType Basic
 AuthName "Password Required"
 AuthUserFile /docs/passwords/.htpasswd
