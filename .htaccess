@@ -1,1 +1,7 @@
 ErrorDocument 404 /404.html
+
+AuthName "Password Protected Area"
+AuthType Basic
+AuthUserFile /customers/5/c/2/michaelbateman.ca/httpd.www/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user
