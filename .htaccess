@@ -1,6 +1,1 @@
 ErrorDocument 404 /404.html
-
-<IfModule !mod_authz_core.c>
-  Order Allow,Deny
-  Deny from all
-</IfModule>
