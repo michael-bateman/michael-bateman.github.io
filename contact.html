@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Contact Me</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="css/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-<style>
-p {
-    margin-right: 50px;
-    margin-left: 50px;
-}
-</style>
-</head>
-<body>
-  <a href="index.html">
-    <button type="button" class="btn btn-default" aria-label="Left Align">
-      <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-    </button>
-  </a>
-  <center>
-    <h1>Contact Me</h1>
-      <p>Contact me using the following methods:</p>
-        <div class="btn-group">
+  <head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="css/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Michael Bateman</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
+              <li><a href="http://blog.michaelbateman.ca">Blog</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                About <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="aboutme.html">About Me</a></li>
+                  <li class="divider"></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="rowing.html">Rowing</a></li>
+                  <li><a href="hockey.html">Hockey</a></li>
+                  <li><a href="computer-science.html">Computer Science</a></li>
+                  <li><a href="travel.html">Travel</a></li>
+                  <li><a href="photography.html">Photography</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="mailto:helpdesk@michaelbateman.ca?Subject=Bug%20Report">Bug Report</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <center>
+      <h1>Contact Me</h1>
+      <div class="container">
+        <div class="btn-group-vertical" role="group">
           <a href="mailto:info@michaelbateman.ca" class="btn btn-primary">Email</a>
           <a href="https://github.com/michael-bateman" class="btn btn-primary">GitHub</a>
           <a href="https://instagram.com/michaelbateman_" class="btn btn-primary">Instagram</a>
@@ -32,12 +63,15 @@ p {
           <a href="images/messenger.jpg" class="btn btn-primary">Facebook Messenger</a>
           <a href="images/snapcode.jpg" class="btn btn-primary">Snapchat</a>
         </div>
-  </center>
-</body>
-<footer>
-  <center>
-    <p>__________________________________</p>
-    <p>&copy; Michael Bateman. All rights reserved.  <a href=mailto:info@michaelbateman.ca>Contact me</a>.</p>
-  </center>
-</footer>
+      </div>
+    </center>
+  </body>
+  <footer>
+    <center>
+      <div class="container">
+        <p>__________________________________</p>
+        <p>&copy; Michael Bateman. All rights reserved. This site utilizes the Boostrap framework. <a href=mailto:info@michaelbateman.ca>Contact me</a>.</p>
+      </div>
+    </center>
+  </footer>
 </html>
