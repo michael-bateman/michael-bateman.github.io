@@ -1,7 +1,11 @@
 # Personal Website
 
-<h3>About</h3>
-<p>This is my personal website. It uses the bootstrap framework. A new version of my wesbsite is now avalible <a href="https://github.com/michael-bateman/beta.michaelbateman.ca">here</a>.
+### About
+* Made with the Boostrap Framework
+* Nav Bar
 
-<h3>Suggestions</h3>
-<p>If you have a suggestion for me, please contact me at <a href="mailto:info@michaelbateman.ca">info@michaelbateman.ca</a></p>
+### Stable Release
+v1.0
+
+### Beta Release
+You can find at my "beta" repository.  To test my beta website, please send an email to info@michaelbateman.ca where you will recieve a code.
