@@ -1,19 +1,13 @@
 # Personal Website
 
-### About
-* All about me
-* Nav Bar
+## Features
+All about Michael!
 
-### Stable Release
-v1.0
+## New Features
+Click [here](https://github.com/michael-bateman/michaelbateman.ca/blob/master/README.md) to see content that will soon be avalible for my website.
 
-### Help Me
-If you would like to help me, please fork my [Beta Repository](https://github.com/michael-bateman/beta.michaelbateman.ca).
+## Bugs
+If you find any bug's please submit a [issue](https://github.com/michael-bateman/michaelbateman.ca/issues).
 
-### Bugs
-If you find any bug's please submit a [Issue](https://github.com/michael-bateman/michaelbateman.ca/issues)
-
-### Beta Release
-You can find at my "beta" repository.  To test my beta website, please send an email to info@michaelbateman.ca where you will recieve a code.
-
-[Beta Repository](https://github.com/michael-bateman/beta.michaelbateman.ca)
+## Help
+Help would be cool, and if you want to help me, please check out my [beta repository](https://github.com/michael-bateman/beta.michaelbateman.ca). If you want to help me **do not** fork this repository.  Instead, fork my beta repository which can be found [here](https://github.com/michael-bateman/beta.michaelbateman.ca).
