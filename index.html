@@ -1,155 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Michael Bateman</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <script src="css/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Michael Bateman</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="http://blog.michaelbateman.ca">Blog</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                About <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="aboutme.html">About Me</a></li>
-                  <li class="divider"></li>
-                  <li><a href="education.html">Education</a></li>
-                  <li><a href="rowing.html">Rowing</a></li>
-                  <li><a href="hockey.html">Hockey</a></li>
-                  <li><a href="computer-science.html">Computer Science</a></li>
-                  <li><a href="travel.html">Travel</a></li>
-                  <li><a href="photography.html">Photography</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="mailto:helpdesk@michaelbateman.ca?Subject=Bug%20Report">Bug Report</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+---
+layout: default
+title: Home
+---
+
+<div class="main">
+  <h1>Michael Bateman</h1>
+  <br />
+  <div class="card-columns" style="padding-bottom: 100px;">
+
+    <div class="card" style="width: 100%;">
+      <img class="card-img-top" src="images/hockey.jpg" alt="Card image cap" style="height: 100%;width: 100%;">
+      <div class="card-block">
+        <h4 class="card-title">Hockey</h4>
+        <p class="card-text">
+          I played AA hockey in the GTHL for several years along with select hockey for mostly the Leaside Flames.  I enjoyed playing hockey, until I was forced to stop due to severe injuries.
+        </p>
+        <a href="#" class="btn btn-primary">Learn More &raquo;</a>
       </div>
-    </nav>
-    <center>
-      <!-- Status Messages -->
-      <div class="container">
-        <div class="alert alert-success">
-          We now offer HTTPS.  Click <a href="https://michaelbateman.ca" class="alert-link">here</a> to visit our HTTPS site.
-        </div>
+    </div>
+
+    <div class="card" style="width: 100%;">
+      <img class="card-img-top" src="images/avatar.jpg" alt="Card image cap" style="height: 100%;width: 100%;">
+      <div class="card-block">
+        <h4 class="card-title">Rowing</h4>
+        <p class="card-text">
+          I currently row at my high school, Upper Canada College.  I am in the JV program at UCC, and also row at other outisde of school clubs in the U17 category.  This past summer, I rowed at the Argonaut Rowing Club and Hanlan Rowing Club, both in Toronto.  One of the highlights this past summer was going to row at the 134th Royal Canadian Henley Regatta.
+        </p>
+        <a href="#" class="btn btn-primary">Learn More &raquo;</a>
       </div>
-      <!--
-      <div class="container">
-        <div class="alert alert-info">
-          On January 29, 2016 from 8:00am to 6:00pm ET, we will be doing upgrades.  <b>Expect website outages.</b>
-        </div>
+    </div>
+
+    <div class="card" style="width: 100%;">
+      <img class="card-img-top" src="images/code2.jpg" alt="Card image cap" style="height: 100%;width: 100%;">
+      <div class="card-block">
+        <h4 class="card-title">Computer Science</h4>
+        <p class="card-text">
+          As my elective course this year, I am taking a Intorduction to Computer Science course.  The course is not very advanced, but we learn basic languages such as Python and JavaScript.  To make this website, I learned HTML through online tutorials and friends.
+        </p>
+        <a href="#" class="btn btn-primary">Learn More &raquo;</a>
       </div>
-      -->
-      <!-- -->
-      <h1>Michael Bateman</h1>
-      <h3>Welcome to my website!</h3>
-      <div class="container">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Rowing</h3>
-          </div>
-          <div class="panel-body">
-            <div style="padding: 10px">
-              <img src="images/avatar.jpg">
-            </div>
-            <div style="padding-bottom: 20px">
-              I currently row at my high school, Upper Canada College.  I am in the JV program at UCC, and also row at other outisde of school clubs in the U17 category.  This past summer, I rowed at the Argonaut Rowing Club and Hanlan Rowing Club, both in Toronto.  One of the highlights this past summer was going to row at the 134th Royal Canadian Henley Regatta.
-            </div>
-            <div>
-              <a href="rowing.html"><button class="btn btn-primary" role="button">Learn More &raquo;</button></a>
-            </div>
-          </div>
-        </div>
+    </div>
+
+    <div class="card" style="width: 100%;">
+      <img class="card-img-top" src="images/blog.jpg" alt="Card image cap" style="height: 100%;width: 100%;">
+      <div class="card-block">
+        <h4 class="card-title">Blog</h4>
+        <p class="card-text">
+          I run my own personal blog, using Jekyll.  You can see my blogging and ranting about things that are of intrest!  I also write about current issues that are happening around the world.
+          <br /><br />
+          Subscribe via <a href="https://blog.michaelbateman.ca/feed.xml" style="color: inherit;"><span class="fa fa-rss fa-lg"></span></a>
+        </p>
+        <a href="#" class="btn btn-primary">Learn More &raquo;</a>
       </div>
-      <div class="container">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Computer Science</h3>
-          </div>
-          <div class="panel-body">
-            <div style="padding: 10px">
-              <img src="images/code2.jpg">
-            </div>
-            <div style="padding-bottom: 20px">
-              As my elective course this year, I am taking a Intorduction to Computer Science course.  The course is not very advanced, but we learn basic languages such as Python and JavaScript.  To make this website, I learned HTML through online tutorials and friends.
-            </div>
-            <div>
-              <a href="computer-science.html"><button class="btn btn-primary" role="button">Learn More &raquo;</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Hockey</h3>
-          </div>
-          <div class="panel-body">
-            <div style="padding: 10px">
-              <img src="images/hockey.jpg">
-            </div>
-            <div style="padding-bottom: 20px">
-              I played AA hockey in the GTHL for several years along with select hockey for mostly the Leaside Flames.  I enjoyed playing hockey, until I was forced to stop due to severe injuries.
-            </div>
-            <div>
-              <a href="hockey.html"><button class="btn btn-primary" role="button">Learn More &raquo;</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Tech Blog</h3>
-          </div>
-          <div class="panel-body">
-            <div style="padding: 10px">
-              <img src="images/blog.jpg">
-            </div>
-            <div style="padding-bottom: 20px">
-              I run my own personal blog, using Jekyll.  You can see my blogging and ranting!
-              <br />
-              You can subscribe via RSS <a href="https://blog.michaelbateman.ca/feed.xml">here</a>
-            </div>
-            <div>
-              <a href="http://blog.michaelbateman.ca" target="_blank"><button class="btn btn-primary" role="button">Learn More &raquo;</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </center>
-  </body>
-  <footer>
-    <center>
-      <div class="container">
-        <p>__________________________________</p>
-        <p>&copy; Michael Bateman. All rights reserved. This site utilizes the Boostrap framework. <a href=mailto:info@michaelbateman.ca>Contact me</a>.</p>
-      </div>
-    </center>
-  </footer>
-</html>
+    </div>
+  </div>
+</div>
