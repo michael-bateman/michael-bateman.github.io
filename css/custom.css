@@ -1,0 +1,27 @@
+/* Fonts */
+
+@font-face {
+	font-family: Ubuntu;
+	src:url(../fonts/ubuntu.ttf);
+}
+
+/* Main CSS */
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.card-columns {
+	column-count: 4;
+}
+
+.footer {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
