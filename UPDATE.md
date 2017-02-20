@@ -44,3 +44,7 @@ This file contains all the updates for Michael's website
 * Setup Jekyll
 * Redesign homepage without `panel` as Bootstrap 4 dropped
 * Redesigned nav
+
+## Monday Feb 20
+
+* Experiementing with website, running on local development sever - Apache
