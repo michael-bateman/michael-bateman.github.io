@@ -1,12 +1,12 @@
 # Update Log
 
-This file contains all the updates for Michael's website
+This file contains all the updates for Michael's website including the things that need to be fixed.
 
-## Updates
-### Pages to update
+# Updates
+## Pages to update (complete when checked)
 
-- [ ] - Home
-- [ ] - Contact
+- [x] - Home
+- [x] - Contact
 - [ ] - About
 - [ ] - Education
 - [ ] - Rowing
@@ -15,22 +15,18 @@ This file contains all the updates for Michael's website
 - [ ] - Travel
 - [ ] - Photography
 
-### Other
+## Other
 
 - [x] - Update to Bootstrap 4
 - [x] - Add FontAwesome
 - [x] - Setup Jekyll
 - [x] - Final Release
 - [x] - New branch for old website
-- [ ] - Add mandatory HTTPS
+- [ ] - Add mandatory HTTPS (will be done when website is released)
 - [ ] - Add Travis CI
-- [ ] - Update Nav to Bootstrap 4
+- [x] - Update Nav to Bootstrap 4
 
-## Notes
-
-### Homepage
-
-* Need to update `learn more` links when they become avalible
+# Notes
 
 ## Friday Feb 17
 
@@ -48,3 +44,9 @@ This file contains all the updates for Michael's website
 ## Monday Feb 20
 
 * Experiementing with website, running on local development sever - Apache
+
+## Tuesday Feb 21
+
+* Focus on `contact.html` which now lives at `{{ site.baseurl }}/contact/`
+* Added contact methods using panels, with the backgrounds being colors for the contact type
+* Database I used can be found at [https://brandcolors.net](https://brandcolors.net)
