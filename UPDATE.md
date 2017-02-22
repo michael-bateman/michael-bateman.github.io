@@ -7,8 +7,8 @@ This file contains all the updates for Michael's website including the things th
 
 - [x] - Home
 - [x] - Contact
-- [ ] - About
-- [ ] - Education
+- [x] - About
+- [x] - Education
 - [ ] - Rowing
 - [ ] - Hockey
 - [ ] - Computer Science
