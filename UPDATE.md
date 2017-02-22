@@ -25,6 +25,7 @@ This file contains all the updates for Michael's website including the things th
 - [ ] - Add mandatory HTTPS (will be done when website is released)
 - [ ] - Add Travis CI
 - [x] - Update Nav to Bootstrap 4
+- [ ] - Update error 404 page
 
 # Notes
 
@@ -50,3 +51,12 @@ This file contains all the updates for Michael's website including the things th
 * Focus on `contact.html` which now lives at `{{ site.baseurl }}/contact/`
 * Added contact methods using panels, with the backgrounds being colors for the contact type
 * Database I used can be found at [https://brandcolors.net](https://brandcolors.net)
+
+## Wednesday Feb 22
+
+* Rename `aboutme.html` -> `about.html`
+* Change the `about.html` page for Bootstrap 4 which is now at `{{ site.baseurl }}/about/`
+* Change the `education.html` page for Bootstrap 4 which is now located at `{{ site.baseurl }}/about/education/`
+* Changes Nav links
+
+
