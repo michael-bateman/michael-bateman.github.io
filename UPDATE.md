@@ -59,4 +59,6 @@ This file contains all the updates for Michael's website including the things th
 * Change the `education.html` page for Bootstrap 4 which is now located at `{{ site.baseurl }}/about/education/`
 * Changes Nav links
 
+## Thursday Feb 23
 
+* More internal testing on local dev server, nothing ready to be pushed yet.
