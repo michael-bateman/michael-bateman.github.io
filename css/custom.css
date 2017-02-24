@@ -41,3 +41,7 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+.carousel-inner img {
+  margin: auto;
+}
