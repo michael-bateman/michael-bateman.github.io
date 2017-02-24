@@ -9,7 +9,7 @@ This file contains all the updates for Michael's website including the things th
 - [x] - Contact
 - [x] - About
 - [x] - Education
-- [ ] - Rowing
+- [x] - Rowing
 - [ ] - Hockey
 - [ ] - Computer Science
 - [ ] - Travel
@@ -62,3 +62,8 @@ This file contains all the updates for Michael's website including the things th
 ## Thursday Feb 23
 
 * More internal testing on local dev server, nothing ready to be pushed yet.
+
+## Friday Feb 24
+
+* Change the `rowing.html` page to `{{ site.baseurl }}/about/rowing/`.
+* Update the `rowing.html` page to conform with Boostrap 4
