@@ -23,7 +23,7 @@ This file contains all the updates for Michael's website including the things th
 - [x] - Final Release
 - [x] - New branch for old website
 - [ ] - Add mandatory HTTPS (will be done when website is released)
-- [ ] - Add Travis CI
+- [x] - Add Travis CI
 - [x] - Update Nav to Bootstrap 4
 - [ ] - Update error 404 page
 
@@ -67,3 +67,7 @@ This file contains all the updates for Michael's website including the things th
 
 * Change the `rowing.html` page to `{{ site.baseurl }}/about/rowing/`.
 * Update the `rowing.html` page to conform with Boostrap 4
+
+## Saturday Feb 25
+
+* Adds Travis CI integration (badge for `README.md` will come once the whole project has finished.
