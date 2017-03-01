@@ -1,133 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Computer Science</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <script src="css/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Michael Bateman</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="http://blog.michaelbateman.ca">Blog</a></li>
-              <li class="active" class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                About <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="aboutme.html">About Me</a></li>
-                  <li class="divider"></li>
-                  <li><a href="education.html">Education</a></li>
-                  <li><a href="rowing.html">Rowing</a></li>
-                  <li><a href="hockey.html">Hockey</a></li>
-                  <li class="active"><a href="computer-science.html">Computer Science</a></li>
-                  <li><a href="travel.html">Travel</a></li>
-                  <li><a href="photography.html">Photography</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="mailto:helpdesk@michaelbateman.ca?Subject=Bug%20Report">Bug Report</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-		<center>
-			<h1>Computer Science</h1>
-			<img src="images/code.jpg" style="padding-bottom: 10px">
-			<div class="container">
-				<p>Computer science is my favourite subject at school.  In our computer science class we learn Python and JavaScript.  I made this website using basic HTML and the Boostrap framework.</p>
-			</div>
-			<div class="container">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Projects</h3>
-					</div>
-					<div class="panel-body">
-						<h5>
-							<div style="padding-bottom: 15px">
-								<a href="http://michaelbateman.ca">Personal Website</a> | <a href="https://github.com/michael-bateman/michaelbateman.ca">(Repository)</a>
-							</div>
-							<div style="padding-bottom: 15px">
-								Python Pong | <a href="https://github.com/michael-bateman/pong-python">(Repository)</a>
-							</div>
-							<div style="padding-bottom: 15px">
-								Python Turtle Art | <a href="https://github.com/michael-bateman/python-turtleart">(Repository)</a>
-							</div>
-							<div style="padding-bottom: 15px">
-								<a href="http://uccewb.tk">Enginners Without Borders UCC Website</a> | <a href="https://github.com/UCCEWB/uccewb.tk">(Repository)</a>
-							</div>
-							<div style="padding-bottom: 15px">
-								JavaScript Login Page | <a href="https://github.com/michael-bateman/password-protect-page">(Repository)</a>
-							</div>
-							<div>
-								Countdown | <a href="https://github.com/michael-bateman/countdown">(Repository)</a>
-							</div>
-						</h5>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Languages</h3>
-					</div>
-					<div class="panel-body">
-						<div style="padding-bottom: 5px">
-							<p>I am proficient in HTML and AppleScript.  I am learning JavaScript, and Python.  I also know how to use the Apache Web Server, Ruby and Jekyll well.</p>
-						</div>
-						<div style="padding-bottom: 5px">
-							<a href="https://github.com/michael-bateman?utf8=✓&tab=repositories&q=&type=&language=applescript">AppleScript Projects</a>
-						</div>
-						<div style="padding-bottom: 5px">
-							<a href="https://github.com/michael-bateman?utf8=✓&tab=repositories&q=&type=&language=html">HTML Projects</a>
-						</div>
-						<div style="padding-bottom: 5px">
-							<a href="https://github.com/michael-bateman?utf8=✓&tab=repositories&q=&type=&language=javascript">JavaScript Projects</a>
-						</div>
-						<div>
-							<a href="https://github.com/michael-bateman?utf8=✓&tab=repositories&q=&type=&language=python">Python Projects</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Ideas</h3>
-					</div>
-					<div class="panel-body">
-						If you have any suggestions for future projects, please contact me at <a href="mailto:info@michaelbateman.ca">info@michaelbateman.ca</a>.
-					</div>
-				</div>
-			</div>
-		</center>
-	</body>
-	<footer>
-		<center>
-			<div class="container">
-				<p>__________________________________</p>
-				<p>&copy; Michael Bateman. All rights reserved.  <a href=mailto:info@michaelbateman.ca>Contact me</a>.</p>
-			</div>
-		</center>
-	</footer>
-</html>
+---
+layout: default
+title: Computer Science
+permalink: /about/computer-science/
+---
+
+<h1>Computer Science</h1>
+<br />
+<img src="{{ site.baseurl }}/images/code.jpg">
+<br /><br />
+<div class="card">
+	<div class="card-block">
+		<h3 class="card-title">About</h3>
+		<p class="card-text">
+			Computer science is my favourite subject at school.  It is very intresting to learn, and you can do almost anything with computers by programming them.
+		</p>
+	</div>
+</div>
+
+<br />
+
+<div class="card">
+	<div class="card-block">
+		<h3 class="card-title">Projects</h3>
+		<p class="card-text">
+			To learn all about my computer science projects, you should visit it at <a href="https://projects.michaelbateman.ca" target="_blank">https://projects.michaelbateman.ca</a>.  All of my projects and their details are located on this website.
+			<br />
+			You can also find out a lot about my open source projects which is located on <a href="https://github.com/michael-bateman/">GitHub</a>.  I do however have a couple closed source projects.  If you want to see my closed source projects, please send me an email at <a href="mailto:info@michaelbateman.ca">info@michaelbateman.ca</a>.
+		</p>
+	</div>
+</div>
+
+<br />
+
+<div class="card">
+	<div class="card-block">
+		<h3 class="card-title">Languages</h3>
+		<p class="card-text">
+			I do not know too many languages to program with, but I do know the basics.
+			<li>
+				HTML
+			</li>
+			<li>
+				CSS
+			</li>
+			<li>
+				JavaScript
+			</li>
+			<li>
+				Python
+			</li>
+			<li>
+				Java*
+			</li>
+			<li>
+				Elixir*
+			</li>
+			<li>
+				C*
+			</li>
+			<li>
+				Apache Web Server
+			</li>
+			<li>
+				Linux/Unix Command Line
+			</li>
+			<li>
+				Git
+			</li>
+			<br />
+			* Still learning...
+		</p>
+	</div>
+</div>
