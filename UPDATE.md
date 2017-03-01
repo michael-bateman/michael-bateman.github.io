@@ -13,7 +13,6 @@ This file contains all the updates for Michael's website including the things th
 - [x] - Hockey
 - [x] - Computer Science
 - [x] - Travel
-- [ ] - Photography
 
 ## Other
 
@@ -23,9 +22,10 @@ This file contains all the updates for Michael's website including the things th
 - [x] - Final Release
 - [x] - New branch for old website
 - [ ] - Add mandatory HTTPS (will be done when website is released)
+- [x] - Add updated website to [beta.michaelbateman.ca](https://beta.michaelbateman.ca)
 - [x] - Add Travis CI
 - [x] - Update Nav to Bootstrap 4
-- [ ] - Update error 404 page
+- [x] - Update error 404 page
 
 # Notes
 
@@ -79,3 +79,7 @@ This file contains all the updates for Michael's website including the things th
 * Redesign of the `computer-science.html` page
 * `computer-science.html` now located at `{{ site.baseurl }}/about/computer-science/`
 * Make the next `travel.html` page which is located at `{{ site.baseurl }}/about/travel/`
+
+## Wednesday Mar 1
+
+* Fixed the `404.html` page.
