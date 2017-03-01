@@ -10,9 +10,9 @@ This file contains all the updates for Michael's website including the things th
 - [x] - About
 - [x] - Education
 - [x] - Rowing
-- [ ] - Hockey
-- [ ] - Computer Science
-- [ ] - Travel
+- [x] - Hockey
+- [x] - Computer Science
+- [x] - Travel
 - [ ] - Photography
 
 ## Other
@@ -71,3 +71,11 @@ This file contains all the updates for Michael's website including the things th
 ## Saturday Feb 25
 
 * Adds Travis CI integration (badge for `README.md` will come once the whole project has finished.
+
+## Tuesday Feb 28
+
+* Complete the new `hockey.html` page
+* `hockey.html` page has now been relocated to `{{ site.baseurl }}/about/hockey/`
+* Redesign of the `computer-science.html` page
+* `computer-science.html` now located at `{{ site.baseurl }}/about/computer-science/`
+* Make the next `travel.html` page which is located at `{{ site.baseurl }}/about/travel/`
