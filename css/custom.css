@@ -27,6 +27,17 @@ body {
 	}
 }
 
+.card-columns-2 {
+	column-count: 2;
+}
+
+@media (max-width: 992px) {
+
+	.card-columns-2 {
+		column-count: 1;
+	}
+}
+
 footer {
 	text-align: center;
 	padding-top: 30px;
