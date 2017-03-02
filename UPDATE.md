@@ -83,3 +83,7 @@ This file contains all the updates for Michael's website including the things th
 ## Wednesday Mar 1
 
 * Fixed the `404.html` page.
+
+## Thursday Mar 2
+
+* Fixing some bugs on homepage that will now have 2 columns instead of 4 on smaller screens.
