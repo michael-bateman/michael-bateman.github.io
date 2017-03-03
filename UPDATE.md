@@ -88,3 +88,7 @@ This file contains all the updates for Michael's website including the things th
 
 * Fixing some bugs on homepage that will now have 2 columns instead of 4 on smaller screens.
 * Added the old website to a branch called `v1`
+
+## Friday Mar 3
+
+* Fixes an issue on the rowing page, wrong grammar
