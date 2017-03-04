@@ -83,6 +83,8 @@ This file contains all the updates for Michael's website including the things th
 ## Wednesday Mar 1
 
 * Fixed the `404.html` page.
+* Released Beta 1
+* Added the new website to [beta.michaelbateman.ca](https://beta.michaelbateman.ca)
 
 ## Thursday Mar 2
 
@@ -92,3 +94,8 @@ This file contains all the updates for Michael's website including the things th
 ## Friday Mar 3
 
 * Fixes an issue on the rowing page, wrong grammar
+
+## Saturday Mar 4
+
+* Releases beta version 2
+* Updates beta website [beta.michaelbateman.ca](https://beta.michaelbateman.ca) with up to date information.
