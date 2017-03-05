@@ -21,7 +21,7 @@ This file contains all the updates for Michael's website including the things th
 - [x] - Setup Jekyll
 - [x] - Final Release
 - [x] - New branch for old website
-- [ ] - Add mandatory HTTPS (will be done when website is released)
+- [x] - Add mandatory HTTPS (will be done when website is released)
 - [x] - Add updated website to [beta.michaelbateman.ca](https://beta.michaelbateman.ca)
 - [x] - Add Travis CI
 - [x] - Update Nav to Bootstrap 4
