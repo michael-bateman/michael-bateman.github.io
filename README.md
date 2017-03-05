@@ -1,16 +1,3 @@
-# Personal Website | [http://michaelbateman.ca](http://michaelbateman.ca)
-
-*The new version of the website is avalible for viewing in beta at [beta.michaelbateman.ca](https://beta.michaelbateman.ca)*
-
-The new website will be avalible at [michaelbateman.ca](http://michaelbateman.ca) on March 5, 2017.
-
-This website is currently being upgraded.  For now, you will still be able to view the old site online at [michaelbateman.ca](http://michaelbateman.ca).  You can view the code of the old website in the `gh-pages` branch.
-
-The [`UPDATE.md`](UPDATE.md) file contains the update log.
-
-
-<!--- This will be added once the site is released
-
 # Personal Website | https://michaelbateman.ca
 [![Build Status](https://travis-ci.org/michael-bateman/michaelbateman.ca.svg?branch=master)](https://travis-ci.org/michael-bateman/michaelbateman.ca) [![Version](https://img.shields.io/github/release/michael-bateman/michaelbateman.ca.svg)](https://github.com/michael-bateman/michaelbateman.ca/releases)
 
@@ -135,5 +122,3 @@ This project is licensed under the GPL-3.0 license - see the [LICENSE.md](LICENS
 ## Acknowledgments
 
 * [README.md template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) - [PurpleBooth](https://github.com/PurpleBooth)
-
---->
