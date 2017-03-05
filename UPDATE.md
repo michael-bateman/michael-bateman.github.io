@@ -99,3 +99,4 @@ This file contains all the updates for Michael's website including the things th
 
 * Releases beta version 2
 * Updates beta website [beta.michaelbateman.ca](https://beta.michaelbateman.ca) with up to date information.
+* Has the `README.md` file ready to be released.
