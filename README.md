@@ -58,7 +58,7 @@ Jekyll is now all installed!
 
 #### Clone
 
-Now, we need to use Git to clone our repository.
+Now, we need to use Git to clone my repository.
 
 * Clone the repository with HTTPS
 ```bash
