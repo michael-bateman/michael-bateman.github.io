@@ -1,3 +1,8 @@
 {% if page.title != "We're updating" %}
-	<meta http-equiv="refresh" content="0;URL='/update/'" />
+	<script type="text/javascript">
+		window.location = "/update/"
+	</script>
+	<noscript>
+		<meta http-equiv="refresh" content="0;URL='/update/'" />
+	</noscript>
 {% endif %}
