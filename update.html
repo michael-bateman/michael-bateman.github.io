@@ -4,6 +4,15 @@ title: We're updating
 permalink: /update/
 ---
 
+{% if site.update == false %}
+	<script type="text/javascript">
+		window.location = "/"
+	</script>
+	<noscript>
+		<meta http-equiv="refresh" content="0;URL='/'" />
+	</noscript>
+{% endif %}
+
 <div class="main">
 	<h1>We're updating...</h1>
 	<br />
