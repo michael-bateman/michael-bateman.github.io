@@ -8,6 +8,7 @@ url: "https://michaelbateman.ca" # the base hostname & protocol for your site
 # Settings for the website
 update: false # If you should be redirected to the update page
 test: true # Beta update notice
+chrome: true # Will redirect chrome users
 
 # Social accounts
 github: https://github.com/michael-bateman/michaelbateman.ca

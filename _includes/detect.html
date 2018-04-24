@@ -3,3 +3,29 @@
 	  <span class="fa fa-exclamation-triangle"></span>  <b>JavaScript Disabled!</b> Enable JavaScript for this website to function properly
 	</div>
 </noscript>
+<div id="redirect"></div>
+<!-- The following will redirect the user if they are using the chrome browser -->
+{% if site.chrome == true %}
+	{% if page.title != "Not Supported" %}
+		<script type="text/javascript">
+			var isChromium = window.chrome;
+			var winNav = window.navigator;
+			var vendorName = winNav.vendor;
+			var isOpera = typeof window.opr !== "undefined";
+			var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
+			var isIOSChrome = winNav.userAgent.match("CriOS");
+
+			if (isIOSChrome) {
+				window.location = "/unsupported-browser/";
+			} else if(
+			  isChromium !== null &&
+			  typeof isChromium !== "undefined" &&
+			  vendorName === "Google Inc." &&
+			  isOpera === false &&
+			  isIEedge === false
+			) {
+			   window.location = "/unsupported-browser/";
+			}
+		</script>
+	{% endif %}
+{% endif %}
