@@ -1,39 +1,41 @@
-{% if page.title != "We're updating" %}
-  <div class="bg-faded">  
-    <div class="container">
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/">Michael Bateman</a>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item{% if page.url == '/' %} active{% endif %}">
-              <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-            </li>
-            <li class="nav-item{% if page.url == '/contact/' %} active{% endif %}">
-              <a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://blog.michaelbateman.ca" target="_blank">Blog</a>
-            </li>
-            <li class="nav-item dropdown{% if page.url == '/about/' or page.url == '/about/education/' or page.url == '/about/rowing/' or page.url == '/about/hockey/' or page.url == '/about/computer-science/' or page.url == '/about/travel/' or page.url == '/abouts/photography/' %} active{% endif %}">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item{% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseurl }}/about/">About Me</a>
-                <hr />
-                <a class="dropdown-item{% if page.url == '/about/education/' %} active{% endif %}" href="{{ site.baseurl }}/about/education/">Education</a>
-                <a class="dropdown-item{% if page.url == '/about/rowing/' %} active{% endif %}" href="{{ site.baseurl }}/about/rowing/">Rowing</a>
-                <a class="dropdown-item{% if page.url == '/about/hockey/' %} active{% endif %}" href="{{ site.baseurl }}/about/hockey/">Hockey</a>
-                <a class="dropdown-item{% if page.url == '/about/computer-science/' %} active{% endif %}" href="{{ site.baseurl }}/about/computer-science/">Computer Science</a>
-                <a class="dropdown-item{% if page.url == '/about/travel/' %} active{% endif %}" href="{{ site.baseurl }}/about/travel/">Travel</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+{% if page.title != "Not Supported" %} 
+  {% if page.title != "We're updating" %}
+    <div class="bg-faded">  
+      <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="{{ site.baseurl }}/">Michael Bateman</a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item{% if page.url == '/' %} active{% endif %}">
+                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+              </li>
+              <li class="nav-item{% if page.url == '/contact/' %} active{% endif %}">
+                <a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.michaelbateman.ca" target="_blank">Blog</a>
+              </li>
+              <li class="nav-item dropdown{% if page.url == '/about/' or page.url == '/about/education/' or page.url == '/about/rowing/' or page.url == '/about/hockey/' or page.url == '/about/computer-science/' or page.url == '/about/travel/' or page.url == '/abouts/photography/' %} active{% endif %}">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item{% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseurl }}/about/">About Me</a>
+                  <hr />
+                  <a class="dropdown-item{% if page.url == '/about/education/' %} active{% endif %}" href="{{ site.baseurl }}/about/education/">Education</a>
+                  <a class="dropdown-item{% if page.url == '/about/rowing/' %} active{% endif %}" href="{{ site.baseurl }}/about/rowing/">Rowing</a>
+                  <a class="dropdown-item{% if page.url == '/about/hockey/' %} active{% endif %}" href="{{ site.baseurl }}/about/hockey/">Hockey</a>
+                  <a class="dropdown-item{% if page.url == '/about/computer-science/' %} active{% endif %}" href="{{ site.baseurl }}/about/computer-science/">Computer Science</a>
+                  <a class="dropdown-item{% if page.url == '/about/travel/' %} active{% endif %}" href="{{ site.baseurl }}/about/travel/">Travel</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
+  {% endif %}
 {% endif %}

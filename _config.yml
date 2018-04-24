@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://michaelbateman.ca" # the base hostname & protocol for your site
 
 # Settings for the website
-update: false # If you should be redirected to the update page
+update: true # If you should be redirected to the update page
 test: true # Beta update notice
 chrome: true # Will redirect chrome users
 
