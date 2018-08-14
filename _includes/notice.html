@@ -1,10 +1,12 @@
 {% if site.update == true %}
 	{% if page.title != "We're updating" %}
-		<script type="text/javascript">
-			window.location = "/update/"
-		</script>
-		<noscript>
-			<meta http-equiv="refresh" content="0;URL='/update/'" />
-		</noscript>
+		{% if page.title != "Contact" %}
+			<script type="text/javascript">
+				window.location = "/update/"
+			</script>
+			<noscript>
+				<meta http-equiv="refresh" content="0;URL='/update/'" />
+			</noscript>
+		{% endif %}
 	{% endif %}
 {% endif %}
